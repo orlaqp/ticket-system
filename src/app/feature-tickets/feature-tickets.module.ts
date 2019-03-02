@@ -9,6 +9,7 @@ import {
     MatInputModule,
     MatSelectModule,
     MatSlideToggleModule,
+    MatIconModule,
 } from '@angular/material';
 import { Route, RouterModule } from '@angular/router';
 
@@ -36,7 +37,8 @@ const materialModules = [
     MatFormFieldModule,
     MatSlideToggleModule,
     MatCheckboxModule,
-    MatSelectModule
+    MatSelectModule,
+    MatIconModule,
 ]
 
 @NgModule({
